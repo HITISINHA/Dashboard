@@ -32,9 +32,9 @@ const routes = {
   '/notifications/alerts': 'Alerts',
   '/notifications/badges': 'Badges',
   '/notifications/modals': 'Modals',
-  '/theme': 'Theme',
-  '/theme/colors': 'Colors',
-  '/theme/typography': 'Typography',
+  '/howitworks': 'HowItWorks',
+  '/howitworks/drink123': 'Drink-1-2-3',
+  '/howitworks/typography': 'Typography',
   '/widgets': 'Widgets'
 };
 export default routes;

@@ -11,7 +11,7 @@ export default {
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'HowItWorks',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
@@ -20,12 +20,12 @@ export default {
     },
     {
       name: 'Colors',
-      url: '/theme/colors',
+      url: '/howitworks/colors',
       icon: 'icon-drop',
     },
     {
       name: 'Typography',
-      url: '/theme/typography',
+      url: '/howitworks/typography',
       icon: 'icon-pencil',
     },
     {

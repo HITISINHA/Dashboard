@@ -9,8 +9,8 @@ import Footer from '../../components/Footer/';
 
 import Dashboard from '../../views/Dashboard/';
 
-import Colors from '../../views/Theme/Colors/';
-import Typography from '../../views/Theme/Typography/';
+import Colors from '../../views/HowItWorks/Colors/';
+import Typography from '../../views/HowItWorks/Typography/';
 
 import Charts from '../../views/Charts/';
 import Widgets from '../../views/Widgets/';
@@ -62,8 +62,8 @@ class Full extends Component {
             <Container fluid>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
-                <Route path="/theme/colors" name="Colors" component={Colors}/>
-                <Route path="/theme/typography" name="Typography" component={Typography}/>
+                <Route path="/howitworks/colors" name="Colors" component={Colors}/>
+                <Route path="/howitworks/typography" name="Typography" component={Typography}/>
                 <Route path="/base/cards" name="Cards" component={Cards}/>
                 <Route path="/base/forms" name="Forms" component={Forms}/>
                 <Route path="/base/switches" name="Swithces" component={Switches}/>
