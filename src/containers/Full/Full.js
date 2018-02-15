@@ -64,7 +64,7 @@ class Full extends Component {
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
                 <Route path="/howitworks/colors" name="Colors" component={Colors}/>
                 <Route path="/howitworks/typography" name="Typography" component={Typography}/>
-                <Route path="/base/cards" name="Cards" component={Cards}/>
+                <Route path="/aboutus" name="Cards" component={Cards}/>
                 <Route path="/base/forms" name="Forms" component={Forms}/>
                 <Route path="/base/switches" name="Swithces" component={Switches}/>
                 <Route path="/base/tables" name="Tables" component={Tables}/>
